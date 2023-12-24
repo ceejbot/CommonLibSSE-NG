@@ -3,7 +3,9 @@
 #include "RE/B/BSInputDeviceFactory.h"
 #include "RE/B/BSPCGamepadDeviceDelegate.h"
 #include "RE/B/BSPCGamepadDeviceHandler.h"
+#ifdef ENABLE_SKYRIM_VR
 #include "RE/B/BSTrackedControllerDevice.h"
+#endif
 #include "RE/B/BSWin32KeyboardDevice.h"
 #include "RE/B/BSWin32MouseDevice.h"
 #include "RE/B/BSWin32VirtualKeyboardDevice.h"

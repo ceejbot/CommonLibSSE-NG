@@ -296,7 +296,9 @@
 #include "RE/B/BSNiAllocator.h"
 #include "RE/B/BSNiNode.h"
 #include "RE/B/BSOpenVR.h"
+#ifdef ENABLE_SKYRIM_VR
 #include "RE/B/BSOpenVRControllerDevice.h"
+#endif
 #include "RE/B/BSOrderedNode.h"
 #include "RE/B/BSPCGamepadDeviceDelegate.h"
 #include "RE/B/BSPCGamepadDeviceHandler.h"
@@ -370,7 +372,9 @@
 #include "RE/B/BSThread.h"
 #include "RE/B/BSThreadEvent.h"
 #include "RE/B/BSTimer.h"
+#ifdef ENABLE_SKYRIM_VR
 #include "RE/B/BSTrackedControllerDevice.h"
+#endif
 #include "RE/B/BSTreeManager.h"
 #include "RE/B/BSTriShape.h"
 #include "RE/B/BSUIMessageData.h"
